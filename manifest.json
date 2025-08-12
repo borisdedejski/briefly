@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Briefly",
+  "version": "0.1.0",
+  "description": "AI Meeting Prep & Summary",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "identity"],
+  "oauth2": {
+    "client_id": "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": ["https://www.googleapis.com/auth/calendar.readonly"]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/briefly-16x16.png",
+    "48": "icons/briefly-32x32.png",
+    "128": "icons/briefly-128x128.png"
+  }
+} 
