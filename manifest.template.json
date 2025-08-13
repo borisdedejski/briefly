@@ -8,7 +8,7 @@
   },
   "permissions": ["storage", "identity"],
   "oauth2": {
-    "client_id": "1007635589760-62l0bp8t0n3u0nnaobgafojbo4kh7t8m.apps.googleusercontent.com.apps.googleusercontent.com",
+    "client_id": "{{GOOGLE_CLIENT_ID}}",
     "scopes": ["https://www.googleapis.com/auth/calendar.readonly"]
   },
   "background": {
